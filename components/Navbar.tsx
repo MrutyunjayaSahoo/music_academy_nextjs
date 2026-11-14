@@ -18,8 +18,8 @@ function Navbar({ className }: { className?: string }) {
           <Link href={"/"}>
             <MenuItem
               setActive={setActive}
-              active={active}
-              item="Home"
+              active={active} //after clicking on nav items that will become active
+              item="Home" //name of nav item
             ></MenuItem>
           </Link>
 
