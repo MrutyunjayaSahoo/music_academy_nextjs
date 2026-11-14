@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Instructors from "@/components/Instructors";
 import MusicTestimonialCards from "@/components/TestimonialCards";
@@ -17,7 +16,6 @@ export default function Home() {
       <MusicTestimonialCards />
       <UpcomingWebinars />
       <Instructors />
-      <Footer />
     </main>
   );
 }

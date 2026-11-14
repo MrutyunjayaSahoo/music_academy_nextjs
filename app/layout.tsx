@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +26,7 @@ export default function RootLayout({
   // here type is being defined
   // this is typescript
   // here type is Readonly and do not mess with it
-  children: React.ReactNode;//and the children hai uska type is React.ReactNode mean kis tarah type ko accept kar rahe ho and here we are accepting React.ReactNode like we have string type , number's type and similar we have react ka React.ReactNode type hai
+  children: React.ReactNode; //and the children hai uska type is React.ReactNode mean kis tarah type ko accept kar rahe ho and here we are accepting React.ReactNode like we have string type , number's type and similar we have react ka React.ReactNode type hai
 }>) {
   return (
     // here we need to add dark class
@@ -38,6 +39,7 @@ export default function RootLayout({
         </div>
         {/* <h2>Nav Item</h2> */}
         {children}
+        <Footer />
       </body>
     </html>
   );
