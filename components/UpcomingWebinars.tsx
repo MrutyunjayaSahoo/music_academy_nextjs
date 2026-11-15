@@ -6,6 +6,7 @@ import { HoverEffect } from "./ui/card-hover-effect";
 function UpcomingWebinars() {
   const featuredWebinars = [
     {
+      id: 1,
       title: "Understanding Music Theory",
       description:
         "Dive deep into the fundamentals of music theory and enhance your musical skills.",
@@ -13,6 +14,7 @@ function UpcomingWebinars() {
       isFeatured: true,
     },
     {
+      id: 2,
       title: "The Art of Songwriting",
       description:
         "Learn the craft of songwriting from experienced musicians and songwriters.",
@@ -20,6 +22,7 @@ function UpcomingWebinars() {
       isFeatured: true,
     },
     {
+      id: 3,
       title: "Mastering Your Instrument",
       description:
         "Advanced techniques to master your musical instrument of choice.",
@@ -27,6 +30,7 @@ function UpcomingWebinars() {
       isFeatured: true,
     },
     {
+      id: 4,
       title: "Music Production Essentials",
       description:
         "Get started with music production with this comprehensive overview.",
@@ -35,6 +39,7 @@ function UpcomingWebinars() {
     },
     // Added two more webinars
     {
+      id: 5,
       title: "Live Performance Techniques",
       description:
         "Enhance your live performance skills with expert tips and strategies.",
@@ -42,6 +47,7 @@ function UpcomingWebinars() {
       isFeatured: true,
     },
     {
+      id: 6,
       title: "Digital Music Marketing",
       description:
         "Learn how to promote your music effectively in the digital age.",
